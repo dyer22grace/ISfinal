@@ -1,0 +1,109 @@
+body {
+    background-color: #add1b7; /* Light Blue background color */
+    font-family: 'Muli', sans-serif; /* Roboto font */
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+  }
+
+  
+  #title {
+    color: #333; /* Black text color */
+  }
+  
+  .intro-text {
+    font-size: 1.2em; /* Normal font size */
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ol, ul {
+    list-style-type: none;
+    margin: 5;
+    padding: 1;
+  }
+  
+  ol > li {
+    font-weight: bold;
+  }
+  
+  ul > li {
+    font-weight: normal;
+    margin-left: 2px;
+  }
+
+  /* .video-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* .video-container iframe {
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+.white-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Optional: adjust text alignment if needed */
+    max-width: 600px; /* Adjust the maximum width of the white box as per your design */
+    margin: 0 auto; /* Center the white box horizontally */
+  }
+
+  .centertableau{
+    text-align: center;
+    margin-top: 20px;
+  
+    margin: 0 auto;
+  }
+
+  .header,
+  footer {
+    text-align: center;
+    background-color: #333; /* Background color for the footer */
+    color: white; /* Text color for the footer */
+    padding: 10px; /* Padding for the footer */
+    /* position: fixed; Fixed position at the bottom of the viewport */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick to the bottom */
+}
+
+.header,
+footer a {
+    color: #add1b7; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.header a:hover,
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.header a[href="index.html"] {
+  color: #add1b7; /* Match the background color of the body */
+  background-color: #333; /* Dark color for the link inside the header */
+  padding: 5px 10px;
+  border-radius: 5px;
+
+}
+
+main {
+  max-width: 1000px;
+  margin: 60px auto 20px; /* Adjusted margin to make space for the fixed header */
+}
+
